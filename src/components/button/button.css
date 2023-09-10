@@ -1,0 +1,13 @@
+.defaultButton{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    background-color: #45a049;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}

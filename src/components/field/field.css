@@ -1,0 +1,25 @@
+input[type=text], input[type=date] {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+input[type=text] :disabled {
+    background-color: #fff;
+}
+
+.inputContainer{
+    width: 400px;
+    padding: 4px 6px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    border: 1px solid #45a049;
+    border-radius: 8px;
+}
+
+.label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 1px;
+}
